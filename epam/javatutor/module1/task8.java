@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class task8 {
 
-/*  Найти max{min(a, b), min(c, d)}.*/
+    /*  Найти max{min(a, b), min(c, d)}.*/
 
     public static void main(String[] args) {
 
@@ -24,12 +24,7 @@ public class task8 {
         System.out.print("Enter number d: ");
         d = scan.nextInt();
 
-        if (Math.min(a,b) > Math.min(c,d)){
-            System.out.println("max{min(a, b), min(c, d)} = " + Math.min(a,b));
-        }
-        else {
-            System.out.println("max{min(a, b), min(c, d)} = " + Math.min(c,d));
-        }
+        System.out.println("max{min(a, b), min(c, d)} = " + Math.max(Math.min(a, b), Math.min(c, d)));
 
-        }
     }
+}
