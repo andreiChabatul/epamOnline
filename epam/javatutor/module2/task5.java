@@ -20,7 +20,7 @@ public class task5 {
 
         for (int i = 0; i < mas.length; i++) {
             if (mas[i]>i)
-                System.out.println(mas[i]+" > "+i);
+                System.out.println(mas[i]+" > "+"["+i+"]");
         }
 
     }
