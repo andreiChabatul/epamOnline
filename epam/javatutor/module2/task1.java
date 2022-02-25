@@ -19,6 +19,8 @@ public class task1 {
             mas [i] = (int) ( Math.random() * 50000 );
         }
 
+        System.out.println(Arrays.toString(mas));
+
         System.out.print("Enter number K: ");
         k = in.nextInt();
 
@@ -32,11 +34,6 @@ public class task1 {
                 }
             }
         }
-
-        System.out.println(Arrays.toString(mas));
-
-
-
 
     }
 }
