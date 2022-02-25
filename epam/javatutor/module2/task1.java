@@ -1,6 +1,5 @@
 package epam.javatutor.module2;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -13,7 +12,7 @@ public class task1 {
         Scanner in = new Scanner(System.in);
 
         int n = 2 + (int) ( Math.random() * 500 );
-        int mas [] = new int [n];
+        int[] mas = new int[n];
         int k;
 
         for (int i = 0; i < mas.length; i++) {
@@ -27,9 +26,9 @@ public class task1 {
             System.out.println("Number cannot be zero.");
         }
         else{
-            for (int i = 0; i < mas.length; i++) {
-                if (mas[i] % k == 0){
-                    System.out.println(mas[i] + " multiple " + k);
+            for (int ma : mas) {
+                if (ma % k == 0) {
+                    System.out.println(ma + " multiple " + k);
                 }
             }
         }
