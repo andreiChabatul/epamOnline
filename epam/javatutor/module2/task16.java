@@ -10,10 +10,12 @@ public class task16 {
 
         int n = 4;
         double [][] mas = new double [n][n];
+        double N;
+        N = n;
 
         for (int j = 0; j < mas.length; j++) {
             for (int i = 0; i < mas.length; i++) {
-                mas[j][i] = Math.sin(((i * i) - (j * j)) / n);
+                mas[j][i] = Math.sin(((i * i) - (j * j)) / N);
             }
         }
 
