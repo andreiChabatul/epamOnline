@@ -19,7 +19,6 @@ public class task19 {
         }
         System.out.println(Arrays.deepToString(mas));
 
-
         for (int[] elem : mas) {
             if (elem[a] > 0) {
                 System.out.print(elem[a] + " ");
