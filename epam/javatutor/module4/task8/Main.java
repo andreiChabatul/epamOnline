@@ -27,7 +27,7 @@ public class Main {
             System.out.println("3. Sort buyers alphabetically");
             System.out.println("4. View a list of customers who have a credit card number within a given range");
             System.out.println();
-            System.out.println("Your choice:");
+            System.out.print("Your choice: ");
             choise = enterNumber();
             switch (choise){
                 case 1 -> viewListCustomer(customerArrayList);
