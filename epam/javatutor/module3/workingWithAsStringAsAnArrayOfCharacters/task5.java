@@ -1,4 +1,4 @@
-package epam.javatutor.module3;
+package epam.javatutor.module3.workingWithAsStringAsAnArrayOfCharacters;
 
 public class task5 {
     /*    Удалить в строке все лишние пробелы, то есть серии подряд идущих пробелов заменить на одиночные пробелы.

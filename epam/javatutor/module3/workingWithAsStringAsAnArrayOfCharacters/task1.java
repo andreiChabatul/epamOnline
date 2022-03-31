@@ -1,4 +1,4 @@
-package epam.javatutor.module3;
+package epam.javatutor.module3.workingWithAsStringAsAnArrayOfCharacters;
 
 import java.util.Arrays;
 
