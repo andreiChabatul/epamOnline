@@ -10,9 +10,7 @@ public class task2 {
 
         strResult = str.replace("word","letter");
 
-        System.out.print("Original line: ");
-        System.out.println(str);
-        System.out.print("Changed line: ");
-        System.out.println(strResult);
+        System.out.println("Original line: "+ str);
+        System.out.println("Changed line: "+ strResult);
     }
 }
