@@ -1,4 +1,4 @@
-package epam.javatutor.module3.workingWithAsStringAsAnArrayOfCharacters;
+package epam.javatutor.module3.part1;
 
 public class task3 {
     /* В строке найти количество цифр.*/
