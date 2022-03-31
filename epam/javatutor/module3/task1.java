@@ -20,9 +20,7 @@ public class task1 {
                 }
             }
         }
-        System.out.print("Starting array: ");
-        System.out.println(Arrays.toString(str));
-        System.out.print("Modified array: ");
-        System.out.print(Arrays.toString(resultStr));
+        System.out.println("Starting array: " + Arrays.toString(str) );
+        System.out.print("Modified array: "+ Arrays.toString(resultStr));
     }
 }
