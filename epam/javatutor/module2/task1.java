@@ -14,6 +14,7 @@ public class task1 {
         int n = 2 + (int) ( Math.random() * 500 );
         int[] mas = new int[n];
         int k;
+        int summa = 0;
 
         for (int i = 0; i < mas.length; i++) {
             mas [i] = (int) ( Math.random() * 50000 );
@@ -30,10 +31,10 @@ public class task1 {
         else{
             for (int ma : mas) {
                 if (ma % k == 0) {
-                    System.out.println(ma + " multiple " + k);
+                    summa = summa + ma;
                 }
             }
+            System.out.println("Sum of multiples of 5: " + summa);
         }
-
     }
 }
